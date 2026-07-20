@@ -71,10 +71,19 @@ header p {{
     margin-top: 0;
 }}
 
-.main-logo 
+.main-logo-left 
 {{
     position: absolute;
     left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: auto;
+}}
+.main-logo-right
+{{
+    position: absolute;
+    right: 20px;
     top: 50%;
     transform: translateY(-50%);
     width: 150px;
@@ -148,8 +157,9 @@ footer{{
 
 <header>
  
- <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo">
-    <h1>Football Seasons Archives </h1>
+ <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo-left">
+    <h1>The Archives </h1>
+ <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo-right">
 
     <p>Historical league tables, results, statistics and season archives</p>
 
@@ -157,26 +167,25 @@ footer{{
 
 <div class="container">
 
-    <a href="https://psl.footballarchive.co.za" class="league-link">
+<a href="https://psl.footballarchive.co.za" class="league-link">
     <div class="card league-button">
         <div class="league-title">
-            <h2>PSL Seasons </h2>
-            <img src="badges/psl-logo.png" alt="PSL League" class="psl-logo">
+            <h2>PSL Seasons</h2>
         </div>
-      
+            <img src="badges/psl-logo.png" alt="PSL League" class="psl-logo">
+            <p>2026/27,2025/26,2024/25,2023/24...</p>
     </div>
 </a>
 
 <a href="https://epl.footballarchive.co.za" class="league-link">
     <div class="card league-button">
         <div class="league-title">
-            <h2>EPL Seasons </h2>
-            <img src="badges/epl-logo.png" alt="EPL Logo" class="epl-logo">
+            <h2>EPL Seasons</h2>
         </div>
+            <img src="badges/epl-logo.png" alt="EPL Logo" class="epl-logo">
+            <p>2026/27,2025/26,2024/25,2023/24...</p>
     </div>
 </a>
-
-
 
 </div>
 
