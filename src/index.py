@@ -92,10 +92,19 @@ header p {{
     margin-top: 0;
 }}
 
-.main-logo 
+.main-logo-left 
 {{
     position: absolute;
     left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: auto;
+}}
+.main-logo-right
+{{
+    position: absolute;
+    right: 20px;
     top: 50%;
     transform: translateY(-50%);
     width: 150px;
@@ -430,14 +439,11 @@ footer{{
 
 <a href="https://footballarchive.co.za" style="text-decoration:none; color:inherit;">
 <header>
- <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo">
+ <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo-left">
     
-    <h1>THE ARCHIVES</h1>
-
-    <p>
-        Historical pages, statistics, media and memorable moments
-        from South African football.
-     </p>
+    <h1>THE FOOTBALL ARCHIVES </h1>
+ <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo-right">   
+     <p>Historical league tables, results, statistics, scorers and all seasons archives</p>
 </header>
 </a>
 
@@ -482,7 +488,6 @@ footer{{
 
             <div class="league-image">
                  <img src="badges/psl-logo.png" alt="PSL League" class="psl-logo">
-                 <img src="badges/pirates.jpg" alt="PSL League" class="psl-player">
             </div>
 
         </div>
@@ -509,8 +514,6 @@ footer{{
 
             <div class="league-image">
                 <img src="badges/epl-logo.png" alt="EPL Logo" class="epl-logo">
-                <img src="badges/arsenal.avif" alt="PSL League" class="epl-player">
-                
             </div>
 
         </div>
