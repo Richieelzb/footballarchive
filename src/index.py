@@ -160,8 +160,15 @@ function openSeason(page)
 """
 
 
-with open("website/index.html", "w", encoding="utf-8") as file:
+
+output_dir = "website"
+
+os.makedirs(output_dir, exist_ok=True)
+
+with open(os.path.join(output_dir, "index.html"), "w", encoding="utf-8") as file:
     file.write(homepage_html)
+
+
 
 
 # with open(f"website/{current_season}.html", "w", encoding="utf-8") as file:
