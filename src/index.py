@@ -441,9 +441,9 @@ footer{{
 <header>
  <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo-left">
     
-    <h1>THE FOOTBALL ARCHIVES </h1>
+    <h1>THE FOOTBALL ARCHIVE </h1>
  <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo-right">   
-     <p>Current and historical league tables, results, statistics, scorers, coaches and all archives</p>
+     <p>Historical league tables, results, statistics and all seasons archives</p>
 </header>
 </a>
 
