@@ -14,30 +14,6 @@ epl_seasons = [
     ("2023_2024.html", "2023/2024"),
 ]
 
-psl_seasons = []
-epl_seasons = []
-
-for file in os.listdir(psl_folder):
-
-    if file.endswith(".html") and file != "index.html":
-
-        season = file.replace(".html", "")
-        label = season.replace("_", "/")
-
-        psl_seasons.append((file, label))
-
-for file in os.listdir(epl_folder):
-
-    if file.endswith(".html") and file != "index.html":
-
-        season = file.replace(".html", "")
-        label = season.replace("_", "/")
-
-        epl_seasons.append((file, label))
-
-psl_seasons.sort(reverse=True)
-epl_seasons.sort(reverse=True)
-
 
 psl_options = ""
 
