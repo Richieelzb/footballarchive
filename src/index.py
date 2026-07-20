@@ -57,13 +57,55 @@ header {{
     background: #111827;
 }}
 
+
 .container {{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
-    padding: 40px;
+    gap: 40px;
+    padding: 80px 40px 40px 40px;
 }}
+
+
+header {{
+    position: relative;
+    text-align: center;
+    padding: 40px;
+    background: #ff0000; /* Red */
+    color: black;        /* Default text color in header */
+}}
+
+header h1 {{
+    color: black;
+}}
+
+header p {{
+    color: black;
+}}
+
+.league-button {{
+    width: 450px;
+    min-height: 180px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}}
+
+.league-button h2 {{
+    font-size: 2rem;
+    margin-top: 35px;
+}}
+
+.league-button p {{
+    font-size: 1.1rem;
+}}
+
+.league-button:hover {{
+    transform: translateY(-8px);
+    background: #334155;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}}
+
 
 .card {{
     width: 350px;
@@ -102,6 +144,49 @@ footer{{
     margin-top:50px;
     background:#1c1c1c;
 }}
+.league-title {{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}}
+
+.psl-logo {{
+    width: 250px;
+    height: 100px;
+    object-fit: contain;
+}}
+
+.epl-logo {{
+    width: 300px;
+    height: 150px;
+    object-fit: contain;
+}}
+
+.league-title h2 {{
+    margin: 0;
+    font-size: 2rem;
+}}
+
+.league-link {{
+    text-decoration: none;
+    color: inherit;
+}}
+
+.league-button {{
+    width: 450px;
+    min-height: 180px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}}
+
+.league-button:hover {{
+    transform: translateY(-8px);
+    background: #334155;
+}}
+
 
 
 </style>
@@ -111,7 +196,7 @@ footer{{
 
 <header>
  
- <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo">
+ <img src="badges2/footballarchive.png" alt ="Main Logo" class="main-logo">
     <h1>Football Seasons Archives </h1>
 
     <p>Historical league tables, results, statistics and season archives</p>
@@ -120,23 +205,26 @@ footer{{
 
 <div class="container">
 
-    <div class="card">
-        <h2>🇿🇦 Betway Premiership</h2>
-
-        <select onchange="openSeason(this.value)">
-            <option value="">Select Season</option>
-            {psl_options}
-        </select>
+    <a href="https://psl.footballarchive.co.za" class="league-link">
+    <div class="card league-button">
+        <div class="league-title">
+            <h2>PSL Seasons </h2>
+            <img src="badges/psl_logo.jpg" alt="PSL League" class="psl-logo">
+        </div>
+      
     </div>
+</a>
 
-    <div class="card">
-        <h2>🏴 English Premier League</h2>
-
-        <select onchange="openSeason(this.value)">
-            <option value="">Select Season</option>
-            {epl_options}
-        </select>
+<a href="https://epl.footballarchive.co.za" class="league-link">
+    <div class="card league-button">
+        <div class="league-title">
+            <h2>EPL Seasons </h2>
+            <img src="badges/epl-logo.png" alt="EPL Logo" class="epl-logo">
+        
     </div>
+</a>
+
+
 
 </div>
 
