@@ -196,7 +196,7 @@ footer{{
 
 <header>
  
- <img src="badges2/footballarchive.png" alt ="Main Logo" class="main-logo">
+ <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo">
     <h1>Football Seasons Archives </h1>
 
     <p>Historical league tables, results, statistics and season archives</p>
