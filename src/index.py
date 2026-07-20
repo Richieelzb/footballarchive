@@ -153,14 +153,14 @@ footer{{
 }}
 
 .psl-logo {{
-    width: 250px;
-    height: 100px;
+    width: 150px;
+    height: 200px;
     object-fit: contain;
 }}
 
 .epl-logo {{
-    width: 300px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     object-fit: contain;
 }}
 
@@ -209,7 +209,7 @@ footer{{
     <div class="card league-button">
         <div class="league-title">
             <h2>PSL Seasons </h2>
-            <img src="badges/psl_logo.jpg" alt="PSL League" class="psl-logo">
+            <img src="badges/psl-logo.png" alt="PSL League" class="psl-logo">
         </div>
       
     </div>
