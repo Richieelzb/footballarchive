@@ -1,38 +1,5 @@
 import os
 
-psl_seasons = [
-    ("2026_2027.html", "2026/2027"),
-    ("2025_2026.html", "2025/2026"),
-    ("2024_2025.html", "2024/2025"),
-    ("2023_2024.html", "2023/2024"),
-]
-
-epl_seasons = [
-    ("2026_2027.html", "2026/2027"),
-    ("2025_2026.html", "2025/2026"),
-    ("2024_2025.html", "2024/2025"),
-    ("2023_2024.html", "2023/2024"),
-]
-
-
-psl_options = ""
-
-for file, season in psl_seasons:
-    psl_options += (
-        f'<option value="https://psl.footballarchive.co.za/{file}">{season}</option>'
-    )
-
-
-epl_options = ""
-
-for file, season in epl_seasons:
-    epl_options += (
-        f'<option value="https://epl.footballarchive.co.za/{file}">{season}</option>'
-    )
-
-
-
-
 #Generating HTML Page
 
 homepage_html = f"""
@@ -50,13 +17,6 @@ body {{
     background: #111111;
     color: white;
 }}
-
-header {{
-    text-align: center;
-    padding: 40px;
-    background: #111827;
-}}
-
 
 .container {{
     display: flex;
@@ -81,14 +41,6 @@ header h1 {{
 
 header p {{
     color: black;
-}}
-
-.league-button {{
-    width: 450px;
-    min-height: 180px;
-    cursor: pointer;
-    text-align: center;
-    transition: all 0.3s ease;
 }}
 
 .league-button h2 {{
@@ -220,7 +172,7 @@ footer{{
         <div class="league-title">
             <h2>EPL Seasons </h2>
             <img src="badges/epl-logo.png" alt="EPL Logo" class="epl-logo">
-        
+        </div>
     </div>
 </a>
 
@@ -228,17 +180,6 @@ footer{{
 
 </div>
 
-<script>
-
-function openSeason(page)
-{{
-    if(page)
-    {{
-        window.location.href = page;
-    }}
-}}
-
-</script>
 
 <footer>
 
@@ -256,20 +197,9 @@ function openSeason(page)
 </html>
 """
 
-
-
 output_dir = "website"
 
 os.makedirs(output_dir, exist_ok=True)
 
 with open(os.path.join(output_dir, "index.html"), "w", encoding="utf-8") as file:
     file.write(homepage_html)
-
-
-
-
-# with open(f"website/{current_season}.html", "w", encoding="utf-8") as file:
-#     file.write(html_content)
-
-# with open("website/index.html", "w", encoding="utf-8") as file:
-#     file.write(html_content)
