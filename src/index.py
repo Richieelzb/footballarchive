@@ -155,8 +155,9 @@ footer{{
 </head>
 <body>
 
-<header>
- 
+
+ <a href="https://footballarchive.co.za" style="text-decoration:none; color:inherit;">
+ <header>
  <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo-left">
     <h1>The Archives </h1>
  <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo-right">
@@ -164,6 +165,7 @@ footer{{
     <p>Historical league tables, results, statistics and season archives</p>
 
 </header>
+</a>
 
 <div class="container">
 
