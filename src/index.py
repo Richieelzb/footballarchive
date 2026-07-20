@@ -450,7 +450,7 @@ footer{{
 
 <section class="hero">
     <div class="hero-content">
-        <h2>Welcome To The</h2>
+        <h2>Explore The</h2>
         <h1>Football History</h1>
 
         <p>
