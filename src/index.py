@@ -77,6 +77,16 @@ header {{
     margin-top: 0;
 }}
 
+.main-logo 
+{{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: auto;
+}}
+
 select {{
     width: 100%;
     padding: 10px;
@@ -100,10 +110,9 @@ footer{{
 <body>
 
 <header>
-   
-    /logo.png" alt="Football Archive Logo" class="logo">
-
-    <h1>Football Archive South Africa</h1>
+ 
+ <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo">
+    <h1>Football Seasons Archives </h1>
 
     <p>Historical league tables, results, statistics and season archives</p>
 

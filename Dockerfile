@@ -18,6 +18,9 @@ RUN rm -rf /usr/share/nginx/html/*
 COPY --from=builder /app/website/ \
     /usr/share/nginx/html/
 
+COPY --from=builder /app/badges/ \
+    /usr/share/nginx/html/badges/
+
 EXPOSE 80
 
 
