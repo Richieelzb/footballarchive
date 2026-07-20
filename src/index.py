@@ -443,19 +443,19 @@ footer{{
     
     <h1>THE FOOTBALL ARCHIVES </h1>
  <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo-right">   
-     <p>Historical league tables, results, statistics, scorers and all seasons archives</p>
+     <p>Current and historical league tables, results, statistics, scorers, coaches and all archives</p>
 </header>
 </a>
 
 
 <section class="hero">
     <div class="hero-content">
-        <h2>Explore South African</h2>
+        <h2>Welcome To The</h2>
         <h1>Football History</h1>
 
         <p>
-            Relive the seasons, the teams, the legends
-            and the moments that shaped our game.
+            Relive the seasons, the teams, the players
+            and the results that shaped the season.
         </p>
     </div>
 </section>
@@ -527,23 +527,23 @@ footer{{
 <section class="features">
 
 <div class="feature">
-    📖
+    
     <h3>Historical Pages</h3>
 </div>
 
 <div class="feature">
-    📊
+    
     <h3>Statistics</h3>
 </div>
 
 <div class="feature">
-    🎥
-    <h3>Media & Moments</h3>
+    
+    <h3>Biggest League Victories</h3>
 </div>
 
 <div class="feature">
-    🏆
-    <h3>Legends</h3>
+    
+    <h3>Highest Scoring Games</h3>
 </div>
 
 </section>
