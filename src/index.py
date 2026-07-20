@@ -1,7 +1,18 @@
 import os
 
-psl_folder = "psl-log-etc/website"
-epl_folder = "epl-log-etc/website"
+psl_seasons = [
+    ("2026_2027.html", "2026/2027"),
+    ("2025_2026.html", "2025/2026"),
+    ("2024_2025.html", "2024/2025"),
+    ("2023_2024.html", "2023/2024"),
+]
+
+epl_seasons = [
+    ("2026_2027.html", "2026/2027"),
+    ("2025_2026.html", "2025/2026"),
+    ("2024_2025.html", "2024/2025"),
+    ("2023_2024.html", "2023/2024"),
+]
 
 psl_seasons = []
 epl_seasons = []
@@ -26,7 +37,6 @@ for file in os.listdir(epl_folder):
 
 psl_seasons.sort(reverse=True)
 epl_seasons.sort(reverse=True)
-
 
 
 psl_options = ""
