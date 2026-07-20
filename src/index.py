@@ -508,7 +508,7 @@ footer{{
             </div>
 
             <div class="league-image">
-                <img src="badges/epl.png" alt="EPL Logo" class="epl-logo">
+                <img src="badges/epl-logo.png" alt="EPL Logo" class="epl-logo">
                 <img src="badges/arsenal.avif" alt="PSL League" class="epl-player">
                 
             </div>
