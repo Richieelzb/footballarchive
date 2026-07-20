@@ -40,7 +40,7 @@ header h1 {{
 }}
 
 header p {{
-    color: black;
+    color: white;
 }}
 
 .league-button h2 {{
