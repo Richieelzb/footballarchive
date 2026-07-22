@@ -53,6 +53,11 @@ header h1 {{
     color: red;
 }}
 
+.the-word {{
+    color: white;
+}}
+
+
 header p {{
     color: white;
 }}
@@ -440,8 +445,11 @@ footer{{
 <a href="https://footballarchive.co.za" style="text-decoration:none; color:inherit;">
 <header>
  <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo-left">
-    
-    <h1>THE FOOTBALL ARCHIVES </h1>
+
+    <h1>
+        <span class="the-word">THE</span> FOOTBALL ARCHIVES
+    </h1>
+
  <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo-right">   
      <p>Historical league tables, results, statistics and all seasons archives</p>
 </header>
