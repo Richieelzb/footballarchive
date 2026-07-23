@@ -140,8 +140,8 @@ footer{{
 }}
 
 .psl-logo {{
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
     object-fit: contain;
 }}
 
