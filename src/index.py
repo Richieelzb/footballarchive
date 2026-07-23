@@ -260,7 +260,7 @@ footer{{
 .hero-content h1 {{
     color: #ff0000;
     font-size: 5rem;
-    margin: 0;
+    margin-top: -30px;
 }}
 
 .hero-content p {{
