@@ -195,6 +195,7 @@ footer{{
     text-align:center;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-top: -30px;
 }}
 
 .hero h1 {{
@@ -260,7 +261,7 @@ footer{{
 .hero-content h1 {{
     color: #ff0000;
     font-size: 5rem;
-    margin-top: -30px;
+    margin: 0;
 }}
 
 .hero-content p {{
