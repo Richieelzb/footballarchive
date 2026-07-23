@@ -417,7 +417,7 @@ footer{{
 
 .league-image img {{
     width:250px;
-    max-width:100%;
+    height: 150px;
 }}
 
 .archive-btn {{
@@ -523,7 +523,7 @@ footer{{
             </div>
 
             <div class="league-image">
-                <img src="badges/epl-logo.png" alt="EPL Logo" class="epl-logo">
+                <img src="badges/epl.png" alt="EPL Logo" class="epl-logo">
             </div>
 
         </div>
