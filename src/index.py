@@ -140,26 +140,14 @@ footer{{
 }}
 
 .psl-logo {{
-    width: 150px;
-    height: 150px;
-    object-fit: contain;
-}}
-
-.epl-player {{
-    width: 2050px;
-    height: 150px;
-    object-fit: contain;
-}}
-
-.psl-player {{
     width: 250px;
-    height: 150px;
+    height: 250px;
     object-fit: contain;
 }}
 
 .epl-logo {{
-    width: 300px;
-    height: 250px;
+    width: 400px;
+    height: 350px;
     object-fit: contain;
 }}
 
