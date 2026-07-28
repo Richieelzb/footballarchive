@@ -470,7 +470,7 @@ footer{{
     font-style:italic;
     color:#f0f0f0;
     max-width:900px;
-    margin:auto;
+    margin-top:20px;
 }}
 .stats-section{{
     width:90%;
