@@ -381,7 +381,7 @@ footer{{
 }}
 
 .psl-panel {{
-    background:#0041C2;
+    background:#1E90FF;
 }}
 
 .epl-panel {{ 
@@ -511,9 +511,6 @@ footer{{
 .league-image img{{
     width: 180px;    
     height: auto;
-}}
-.league-image img{{
-    mix-blend-mode: lighten;
 }}
 
 </style>
