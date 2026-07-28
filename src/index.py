@@ -381,7 +381,7 @@ footer{{
 }}
 
 .psl-panel {{
-    background:#41a7f5;
+    background:#1e97f3;
 }}
 
 .epl-panel {{ 
