@@ -462,6 +462,8 @@ footer{{
     background:black;
     border-top:1px solid rgba(255,255,255,0.1);
     border-bottom:1px solid rgba(255,255,255,0.1);
+    margin-top:30px;
+    text-align: center;
 }}
 
 .intro-banner p{{
@@ -470,7 +472,8 @@ footer{{
     font-style:italic;
     color:#f0f0f0;
     max-width:900px;
-    margin-top:20px;
+    margin-top:30px;
+    text-align: center;
 }}
 .stats-section{{
     width:90%;
@@ -479,6 +482,8 @@ footer{{
     margin-top:-40px auto 30px auto;
     padding:30px;
     z-index:10;
+    margin-left: auto;
+    margin-right: auto;
 
     display:flex;
     justify-content:space-around;
