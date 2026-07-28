@@ -202,12 +202,12 @@ footer{{
 }}
 
 .psl {{
-    background:#131E3A 
+    background:linear-gradient(90deg,#02152c,#0b2b4d);
   
 }}
 
 .epl {{
-    background:#301934
+    background: linear-gradient(90deg,#2a003d,#51187f);
     
 }}
 
@@ -381,19 +381,11 @@ footer{{
 }}
 
 .psl-panel {{
-    background:linear-gradient(
-        135deg,
-        #081b2f,
-        #103b63
-    );
+    background:#131E3A;
 }}
 
 .epl-panel {{ 
-    background:linear-gradient(
-        135deg,
-        #2b1040,
-        #5e2386
-    );
+    background: #301934;
 }}
 
 .league-content {{
