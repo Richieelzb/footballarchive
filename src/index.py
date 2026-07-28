@@ -613,7 +613,7 @@ footer{{
             </div>
 
             <div class="league-image">
-                 <img src="badges/psl-logo.png" alt="PSL League" class="psl-logo">
+                 <img src="badges/psl_logo.png" alt="PSL League" class="psl-logo">
             </div>
 
         </div>
@@ -639,7 +639,7 @@ footer{{
             </div>
 
             <div class="league-image">
-                <img src="badges/epl-logo.png" alt="EPL Logo" class="epl-logo">
+                <img src="badges/epl_logo.png" alt="EPL Logo" class="epl-logo">
             </div>
 
         </div>
