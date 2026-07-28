@@ -453,12 +453,21 @@ footer{{
 .epl-btn {{
     background:#8a2be2;
 }}
-.site-tagline{{
-    color:white;
-    font-size:1.1rem;
+.intro-banner{{
+    text-align:center;
+    padding:25px 20px;
+    background:rgba(255,255,255,0.05);
+    border-top:1px solid rgba(255,255,255,0.1);
+    border-bottom:1px solid rgba(255,255,255,0.1);
+}}
+
+.intro-banner p{{
+    margin:0;
+    font-size:1.3rem;
     font-style:italic;
-    margin-top:10px;
-    letter-spacing:1px;
+    color:#f0f0f0;
+    max-width:900px;
+    margin:auto;
 }}
 
 </style>
@@ -479,8 +488,9 @@ footer{{
 </header>
 </a>
 
-<p class="site-tagline"> The ultimate football archive for fans, historians and lovers of the beautiful game.3</p>
-
+<div class="intro-banner">
+   <p> The every football fan book...</p>
+</div>
 
 <section class="hero">
     <div class="hero-content">
