@@ -385,7 +385,7 @@ footer{{
 }}
 
 .epl-panel {{ 
-    background: #301934;
+    background: #OA64BC;
 }}
 
 .league-content {{
