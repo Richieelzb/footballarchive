@@ -202,13 +202,13 @@ footer{{
 }}
 
 .psl {{
-    background:
-    linear-gradient(90deg,#02152c,#0b2b4d);
+    background:#131E3A 
+  
 }}
 
 .epl {{
-    background:
-    linear-gradient(90deg,#2a003d,#51187f);
+    background:#301934
+    
 }}
 
 .features {{
