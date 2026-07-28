@@ -460,7 +460,9 @@ footer{{
     width: 90%;
     max-width: 1200px;
 
-    margin: 15px auto 20px auto;
+    margin-left: auto;
+    margin-right: auto;
+    
     padding: 12px 20px;
 
     text-align: center;
@@ -471,13 +473,11 @@ footer{{
 }}
 
 .intro-banner p{{
-    margin:0;
     font-size:1.3rem;
     font-style:italic;
     color:#f0f0f0;
     max-width:900px;
     margin-top:30px;
-    text-align: center;
 }}
 .stats-section{{
     width:90%;
