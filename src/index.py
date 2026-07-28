@@ -458,7 +458,7 @@ footer{{
     padding: 12px 20px;
 
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
 
     background: rgba(255,255,255,0.03);
     border: 1px solid rgba(255,255,255,0.1);
