@@ -457,13 +457,17 @@ footer{{
 }}
 
 .intro-banner{{
-    text-align:center;
-    padding:25px 20px;
-    background:black;
-    border-top:1px solid rgba(255,255,255,0.1);
-    border-bottom:1px solid rgba(255,255,255,0.1);
-    margin-top:30px;
+    width: 90%;
+    max-width: 1200px;
+
+    margin: 15px auto 20px auto;
+    padding: 12px 20px;
+
     text-align: center;
+
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
 }}
 
 .intro-banner p{{
