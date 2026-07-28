@@ -469,6 +469,46 @@ footer{{
     max-width:900px;
     margin:auto;
 }}
+.stats-section{{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+    padding:30px;
+
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:20px;
+
+    background:rgba(255,255,255,0.03);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}}
+
+.stat-card{{
+    text-align:center;
+    min-width:200px;
+}}
+
+.stat-card i{{
+    font-size:2rem;
+    color:#ff0000;
+    margin-bottom:10px;
+}}
+
+.stat-card h2{{
+    font-size:3rem;
+    margin:10px 0;
+    color:white;
+}}
+
+.stat-card p{{
+    color:#cccccc;
+    letter-spacing:2px;
+    font-size:0.9rem;
+}}
 
 </style>
 
@@ -502,6 +542,34 @@ footer{{
             and the results that shaped the season.
         </p>
     </div>
+</section>
+
+<section class="stats-section">
+
+    <div class="stat-card">
+        <i class="fa-solid fa-trophy"></i>
+        <h2>12</h2>
+        <p>SEASONS ARCHIVED</p>
+    </div>
+
+    <div class="stat-card">
+        <i class="fa-solid fa-shield-halved"></i>
+        <h2>200+</h2>
+        <p>CLUBS</p>
+    </div>
+
+    <div class="stat-card">
+        <i class="fa-solid fa-futbol"></i>
+        <h2>3,800+</h2>
+        <p>MATCHES</p>
+    </div>
+
+    <div class="stat-card">
+        <i class="fa-solid fa-calendar-days"></i>
+        <h2>7+</h2>
+        <p>YEARS OF HISTORY</p>
+    </div>
+
 </section>
 
 <div class="browse-title">
