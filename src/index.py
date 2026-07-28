@@ -605,7 +605,7 @@ footer{{
             </div>
 
             <div class="league-image">
-                 <img src="badges/psl_logo.png" alt="PSL League" class="psl-logo">
+                 <img src="badges/psl-img.png" alt="PSL League" class="psl-logo">
             </div>
 
         </div>
