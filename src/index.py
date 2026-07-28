@@ -218,6 +218,12 @@ footer{{
     width:90%;
     margin:auto;
 }}
+.feature{{
+    background:#1e293b;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+}}
 .hero {{
     min-height: 600px;
 
@@ -402,6 +408,27 @@ footer{{
     line-height:1.7;
     color:#ddd;
 }}
+@media (max-width:768px){{
+
+    .league-panel{{
+        flex-direction:column;
+        text-align:center;
+    }}
+
+    .league-content{{
+        width:100%;
+    }}
+
+    .psl-logo,
+    .epl-logo{{
+        width:200px;
+        height:auto;
+    }}
+
+    .hero-content h1{{
+        font-size:3rem;
+    }}
+}}
 
 .league-image img {{
     width:250px;
@@ -426,6 +453,13 @@ footer{{
 .epl-btn {{
     background:#8a2be2;
 }}
+.site-tagline{{
+    color:white;
+    font-size:1.1rem;
+    font-style:italic;
+    margin-top:10px;
+    letter-spacing:1px;
+}}
 
 </style>
 
@@ -444,6 +478,8 @@ footer{{
      <p>Historical league tables, results, statistics and all seasons archives</p>
 </header>
 </a>
+
+<p class="site-tagline"> The ultimate football archive for fans, historians and lovers of the beautiful game.3</p>
 
 
 <section class="hero">
@@ -526,7 +562,7 @@ footer{{
 
 <div class="feature">
     
-    <h3>Historical Pages</h3>
+    <h3>Historical Seasons</h3>
 </div>
 
 <div class="feature">
@@ -536,12 +572,12 @@ footer{{
 
 <div class="feature">
     
-    <h3>Biggest League Victories</h3>
+    <h3>Upcoming Games</h3>
 </div>
 
 <div class="feature">
     
-    <h3>Highest Scoring Games</h3>
+    <h3>Record Games</h3>
 </div>
 
 </section>
