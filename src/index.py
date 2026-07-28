@@ -456,7 +456,7 @@ footer{{
 .intro-banner{{
     text-align:center;
     padding:25px 20px;
-    background:rgba(255,255,255,0.05);
+    background:black;
     border-top:1px solid rgba(255,255,255,0.1);
     border-bottom:1px solid rgba(255,255,255,0.1);
 }}
