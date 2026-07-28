@@ -515,6 +515,13 @@ footer{{
     letter-spacing:2px;
     font-size:0.9rem;
 }}
+.league-image img{{
+    width: 180px;    
+    height: auto;
+}}
+.league-image img{{
+    mix-blend-mode: lighten;
+}}
 
 </style>
 
