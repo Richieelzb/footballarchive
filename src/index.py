@@ -225,7 +225,7 @@ footer{{
     text-align:center;
 }}
 .hero {{
-    min-height: 600px;
+    min-height: 500px;
 
     background:
         linear-gradient(
@@ -244,6 +244,7 @@ footer{{
 
     text-align: center;
     padding: 50px;
+    margin-bottom: 0;
 }}
 
 .hero-content h2 {{
@@ -303,6 +304,7 @@ footer{{
     align-items:center;
     justify-content:center;
     gap:15px;
+    margin-top: 20px;
 }}
 
 .browse-title span {{
@@ -453,6 +455,7 @@ footer{{
 .epl-btn {{
     background:#8a2be2;
 }}
+
 .intro-banner{{
     text-align:center;
     padding:25px 20px;
@@ -472,8 +475,10 @@ footer{{
 .stats-section{{
     width:90%;
     max-width:1200px;
-    margin:40px auto;
+    position: relative;
+    margin-top:-40px auto 30px auto;
     padding:30px;
+    z-index:10;
 
     display:flex;
     justify-content:space-around;
