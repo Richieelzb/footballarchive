@@ -6,7 +6,7 @@ homepage_html = f"""
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="icon" type="badges/footballarchive.png" sizes="32x32" href="/favicon.png">
+<link rel="icon" type="badges/footballarchive.png" sizes="32x32" href="/favicon.ico">
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
