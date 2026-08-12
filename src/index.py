@@ -686,9 +686,8 @@ footer{{
     </a>
 
 </div>
-
-    <p>© 2026 Football Archive South Africa</p>
-
+    <footer>© 2026 Football Archive South Africa.</footer>
+    
     <p class="footer-link">
         www.footballarchive.co.za
     </p>
