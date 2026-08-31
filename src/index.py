@@ -674,7 +674,7 @@ footer{{
         <i class="fa-brands fa-facebook-f"></i>
     </a>
 
-    <a href="https://x.com/yourpage" targer="_blank">
+    <a href="https://x.com/footbalhandbook" targer="_blank">
         <i class="fa-brands fa-x-twitter"></i>
     </a>
 
