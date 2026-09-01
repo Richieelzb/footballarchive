@@ -678,7 +678,7 @@ footer{{
         <i class="fa-brands fa-x-twitter"></i>
     </a>
 
-    <a href="Tiktok.com/@yourpage" target="_blank">
+    <a href="https://www.tiktok.com/@footballarchieves" target="_blank">
         <i class="fa-brands fa-tiktok"></i>
     </a>
 
