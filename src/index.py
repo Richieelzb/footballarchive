@@ -6,6 +6,16 @@ homepage_html = f"""
 <!DOCTYPE html>
 <html>
 <head>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RHFKFMTB44"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+    gtag('config', 'G-RHFKFMTB44');
+</script>
+
 <link rel="icon" type="image/png" sizes="32x32" href="badges/footballarchive.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
