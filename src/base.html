@@ -1,9 +1,28 @@
-<!-- Google tag (gtag.js) -->
-<script async src="httpsager.com/gtag/js?id=G-RHFKFMTB44 </script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-gtag('config', 'G-RHFKFMTB44');
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}WallaWalla{% endblock %}</title>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RHFKFMTB44"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RHFKFMTB44');
+    </script>
+
+    {% block head %}{% endblock %}
+
+</head>
+
+<body>
+
+    {% block content %}{% endblock %}
+
+</body>
+</html>
