@@ -718,53 +718,36 @@ footer{{
     <i class="fa-solid fa-chevron-down"></i>
 </div>
 
-<script>
+</script>
 
+<script>
 document.getElementById("floating-arrow")
 .addEventListener("click", function(){{
 
-    const currentPosition =
-        window.scrollY;
+    window.scrollBy({{
+        top: window.innerHeight,
+        behavior: "smooth"
+    }});
 
-    for(let i = 0; i < sections.length; i++){{
-
-        const section =
-            document.getElementById(sections[i]]);
-
-        if(section.offsetTop >
-            currentPosition + 100){{
-
-            section.scrollIntoView({{
-                behavior:"smooth"
-            }});
-
-            return;
-        }}
-    }}
 }});
 
 window.addEventListener("scroll", function(){{
 
-    const footer =
-        document.getElementById("footer");
-
     const arrow =
         document.getElementById("floating-arrow");
 
-    if(
-        window.scrollY + window.innerHeight >=
-        footer.offsetTop
-    ){{
-        arrow.style.display = "none";
-    }}else{{
-        arrow.style.display = "flex";
-    }}
-}});
+    const atBottom =
+        window.innerHeight + window.scrollY >=
+        document.body.offsetHeight - 50;
 
+    arrow.style.display =
+        atBottom ? "none" : "flex";
+
+}});
 </script>
 
 
-<footer>
+<footer id="footer">
 
    <div class="social-icons">
 
