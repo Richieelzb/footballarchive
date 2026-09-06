@@ -221,6 +221,45 @@ footer{{
     
 }}
 
+.floating-arrow{{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+
+    background: #d50000;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    z-index: 9999;
+
+    box-shadow: 0 4px 20px rgba(0,0,0,.3);
+
+    animation: bounceArrow 1.5s infinite;
+}}
+
+.floating-arrow i{{
+    font-size: 28px;
+}}
+
+@keyframes bounceArrow{{
+    0%,100%{{
+        transform: translateY(0);
+    }}
+    50%{{
+        transform: translateY(10px);
+    }}
+}}
+
 .features {{
     display:grid;
     grid-template-columns:repeat(4,1fr);
@@ -674,6 +713,55 @@ footer{{
 
 </section>
 
+</script>
+<div id="floating-arrow" class="floating-arrow">
+    <i class="fa-solid fa-chevron-down"></i>
+</div>
+
+<script>
+
+document.getElementById("floating-arrow")
+.addEventListener("click", function(){{
+
+    const currentPosition =
+        window.scrollY;
+
+    for(let i = 0; i < sections.length; i++){{
+
+        const section =
+            document.getElementById(sections[i]]);
+
+        if(section.offsetTop >
+            currentPosition + 100){{
+
+            section.scrollIntoView({{
+                behavior:"smooth"
+            }});
+
+            return;
+        }}
+    }}
+}});
+
+window.addEventListener("scroll", function(){{
+
+    const footer =
+        document.getElementById("footer");
+
+    const arrow =
+        document.getElementById("floating-arrow");
+
+    if(
+        window.scrollY + window.innerHeight >=
+        footer.offsetTop
+    ){{
+        arrow.style.display = "none";
+    }}else{{
+        arrow.style.display = "flex";
+    }}
+}});
+
+</script>
 
 
 <footer>
