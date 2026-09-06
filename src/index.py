@@ -718,8 +718,6 @@ footer{{
     <i class="fa-solid fa-chevron-down"></i>
 </div>
 
-</script>
-
 <script>
 document.getElementById("floating-arrow")
 .addEventListener("click", function(){{
