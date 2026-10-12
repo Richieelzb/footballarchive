@@ -582,7 +582,7 @@ footer{{
 </a>
 
 <div class="intro-banner">
-   <p> The only football fan book...</p>
+   <p> The only football fan book!!!</p>
 </div>
 
 <section class="hero">
