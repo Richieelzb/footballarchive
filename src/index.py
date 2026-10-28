@@ -641,9 +641,9 @@ footer{{
                 <h2>PSL SEASONS</h2>
 
                 <p>
-                    Premier Soccer League season archives,
-                    results, tables, top scorers and
-                    memorable moments.
+                    Premier Soccer League archives,
+                    results, fixtues, predictions, tables, top scorers and
+                    more.
                 </p>
 
                 <div class="archive-btn">
@@ -667,9 +667,9 @@ footer{{
                 <h2>EPL SEASONS</h2>
 
                 <p>
-                    English Premier League season archives,
-                    results, tables, top scorers and
-                    memorable moments.
+                    English Premier League archives,
+                    results, tables, predictions, top scorers and
+                    more.
                 </p>
 
                 <div class="archive-btn epl-btn">
