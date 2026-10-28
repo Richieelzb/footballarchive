@@ -577,7 +577,7 @@ footer{{
     </h1>
 
  <img src="badges/footballarchive.png" alt ="Main Logo" class="main-logo-right">   
-     <p>Historical league tables, results, statistics and all seasons archives</p>
+     <p>League tables, results, fixtures, predictions, statistics and all seasons archives</p>
 </header>
 </a>
 
